@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 
 char **charSquare(int n)
 {
-	char **square;
+	char **square;//i czu to nie są jaja
 	return square;
 }
 
