@@ -39,6 +39,8 @@ void drawCharSquare(char **square, int n)
 			{
 				i++;
 				printf("\n");
+				delete [] square[i-1];
 			}
 	}
+	delete []square;	
 }
